@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.max-width-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 32px;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.intro-chunk {
+  max-width: 350px;
+  padding-bottom: 48px;
+  padding-top: 96px;
+}
+
+.intro-chunk .title {
+  padding-bottom: 48px;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  height: 100%;
+  padding: 96px 0;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  margin: -24px;
+  padding: 24px;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  margin-left: -32px;
+  margin-top: -8px;
+  padding: 16px 32px;
+  width: fit-content;
+}
